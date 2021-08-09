@@ -1,0 +1,18 @@
+name: "treebook"
+title: "treebook"
+description: |
+  treebook
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "How to order"
+      href: howtoorder.html   
+    - text: "Data sets"
+      href: datasets.html 
+    - text: "Errata"
+      href: errata.html 
+output: distill::distill_article

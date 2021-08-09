@@ -1,0 +1,37 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this book",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\nTBD.\n\n\n\n",
+      "last_modified": "2021-08-07T21:01:00-04:00"
+    },
+    {
+      "path": "errata.html",
+      "title": "Errata",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\nErrata since…\n\n\n\n",
+      "last_modified": "2021-08-07T21:06:35-04:00"
+    },
+    {
+      "path": "howtoorder.html",
+      "title": "How to order",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\nTBD.\n\n\n\n",
+      "last_modified": "2021-08-07T20:59:32-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "treebook",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-08-07T21:07:06-04:00"
+    }
+  ],
+  "collections": []
+}
