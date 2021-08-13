@@ -1,5 +1,6 @@
 name: "treebook"
 title: "treebook"
+theme: treebook.css
 description: |
   treebook
 output_dir: "docs"
@@ -15,4 +16,8 @@ navbar:
       href: datasets.html 
     - text: "Errata"
       href: errata.html 
+    - text: "Supplementary"
+      href: supplementary.html     
+    - icon: fab fa-github
+      href: https://github.com/bgreenwell
 output: distill::distill_article
