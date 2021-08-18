@@ -6,7 +6,15 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\nTBD.\n\n\n\n",
-      "last_modified": "2021-08-07T21:01:00-04:00"
+      "last_modified": "2021-08-17T22:21:41-04:00"
+    },
+    {
+      "path": "datasets.html",
+      "title": "Data sets",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\nbanknote.\n\n\n\n",
+      "last_modified": "2021-08-17T22:21:41-04:00"
     },
     {
       "path": "errata.html",
@@ -14,7 +22,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\nErrata since…\n\n\n\n",
-      "last_modified": "2021-08-07T21:06:35-04:00"
+      "last_modified": "2021-08-17T22:21:42-04:00"
     },
     {
       "path": "howtoorder.html",
@@ -22,23 +30,23 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\nTBD.\n\n\n\n",
-      "last_modified": "2021-08-07T20:59:32-04:00"
+      "last_modified": "2021-08-17T22:21:43-04:00"
     },
     {
       "path": "index.html",
       "title": "treebook",
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-13T09:14:33-04:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-08-17T22:21:44-04:00"
     },
     {
       "path": "supplementary.html",
       "title": "Online supplementary material",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\r\ntest.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-13T09:14:44-04:00"
+      "contents": "\ntest.\nThe following complements provide further details, and references which appeared (or came to my attention) after the book was completed in XYZ. Minor corrections can be found in the online errata.\nChapter 1: Binary recursive partitioning\nTBD…\n\n\n\n",
+      "last_modified": "2021-08-17T22:21:44-04:00"
     }
   ],
   "collections": []
