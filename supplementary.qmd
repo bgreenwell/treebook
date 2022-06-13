@@ -1,18 +1,13 @@
 ---
 title: "Online supplementary material"
 description: |
-  Some additional details about the website
+  In progress...
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-[test](https://bgreenwell.github.io/treebook/extra/README_Krantz.pdf).
-
-
-The following complements provide further details, and references which appeared (or came to my attention) after the book was completed in XYZ. Minor corrections can be found in the [online errata](https://bgreenwell.github.io/treebook/errata.html).
-
-Chapter 1: Binary recursive partitioning
+The following complements provide further details and references which appeared (or came to my attention) after the book was published in June, 2022. Minor corrections can be found in the [online errata](https://bgreenwell.github.io/treebook/errata.html).
 
 TBD...

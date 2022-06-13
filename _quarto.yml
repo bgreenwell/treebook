@@ -3,15 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "treebook"
+  title: "Tree-Based Methods for Statistical Learning"
   navbar:
     left:
       - icon: github
         menu:
-          - text: Source code
-            url: https://github.com/bgreenwell/treebook
-          - text: Report issues/errata
-            url: https://github.com/bgreenwell/treebook/issues
+          - text: "Source code"
+            href: "https://github.com/bgreenwell/treebook"
+            icon: "git"
+          - text: "Report issues/errata"
+            href: "https://github.com/bgreenwell/treebook/issues"
+            icon: "bug"
     right:
       - href: index.qmd
         text: Home
@@ -28,7 +30,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: default
     css: styles.css
     toc: true
 
