@@ -2,6 +2,8 @@
 title: "About this book"
 ---
 
+[![](images/9780367532468_cover.jpg){fig-align="center" width="80%"}](https://www.routledge.com/Tree-Based-Methods-for-Statistical-Learning-in-R/Greenwell/p/book/9780367532468)
+
 Welcome to *Tree-Based Methods for Statistical Learning in R*. Tree-based methods, as viewed in this book, refer to a broad family of algorithms that rely on *decision trees*, of which this book attempts to provide a thorough treatment. This is not a general statistical or machine learning book, nor is it an R book. Consequently, some familiarity with both would be useful, but I've tried to keep the core material as accessible and practical as possible to a broad audience (even if you're not an R programmer or master of statistical and machine learning). That being said, I'm a firm believer in learning by doing, and in understanding concept through code examples. To that end, almost every major section in this book is followed-up by general programming examples to help further drive the material home. Therefore, this book necessarily involves a lot of code snippets.
 
 This website is where I plan to include chapter exercises, code to reproduce most of the examples and figures in the book, errata, and various supplementary material.
