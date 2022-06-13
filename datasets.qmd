@@ -1,7 +1,5 @@
 ---
-title: "Data sets"
-description: |
-  Some additional details about the website
+title: "Data sets used in this book"
 ---
 
 ```{r setup, include=FALSE}
@@ -14,6 +12,6 @@ The Swiss banknote data (FIXME: ADD CITATION) contain measurements from 200 Swis
 
 Download: ([.csv](https://bgreenwell.github.io/treebook/datasets/banknote.csv), .RData).
 
-
 ### References
 
+CITATION goes here.
