@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 This page contains all of the code needed to reproduce just about every example and figure in the book. If any of the code in these scripts does not work, please let me know. For example, if a code snippet requires reading in an intermediate result I probably saved as part of a longer running chunk of code, then post an issue and I will add the missing code to reproduce it.
 
-#### Links to R code by chapter
+#### Download R code by chapter
 
 -   [Chapter 1: Introduction](scripts/chap-intro.R)
 
