@@ -4,7 +4,7 @@
     "href": "rscripts.html",
     "title": "R code",
     "section": "",
-    "text": "Links to R code by chapter\n\nChapter 1: Introduction\nChapter 2: Binary recursive partitioning with CART\n[Chapter 3: Conditional inference trees](scripts/chap-urpart.R)\n[Chapter 4: The hitchhiker’s GUIDE to modern decision trees](scripts/chap-guide.R)\n[Chapter 5: Ensemble algorithms](scripts/chap-ensembles.R)\n[Chapter 6: Peeking inside the “black box”: post-hoc interpretability](scripts/chap-interpret.R)\n[Chapter 7: Random forests](scripts/chap-rf.R)\n[Chapter 8: Gradient boosting machines](scripts/chap-gbm.R)"
+    "text": "Links to R code by chapter\n\nChapter 1: Introduction\nChapter 2: Binary recursive partitioning with CART\nChapter 3: Conditional inference trees\nChapter 4: The hitchhiker’s GUIDE to modern decision trees\nChapter 5: Ensemble algorithms\nChapter 6: Peeking inside the “black box”: post-hoc interpretability\nChapter 7: Random forests\nChapter 8: Gradient boosting machines"
   },
   {
     "objectID": "supplementary.html",
