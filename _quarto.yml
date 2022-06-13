@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "treebook"
+  navbar:
+    left:
+      - icon: github
+        menu:
+          - text: Source code
+            url: https://github.com/bgreenwell/treebook
+          - text: Report issues/errata
+            url: https://github.com/bgreenwell/treebook/issues
+    right:
+      - href: index.qmd
+        text: Home
+      - text: "How to order"
+        href: howtoorder.qmd  
+      - text: R scripts
+        href: rscripts.qmd
+      - text: "Data sets"
+        href: datasets.qmd 
+      - text: "Errata"
+        href: errata.qmd 
+      - text: "Supplementary"
+        href: supplementary.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

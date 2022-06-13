@@ -1,0 +1,27 @@
+---
+title: "Errata"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Thank you for sending in errata. Please check against the errata already posted, which are grouped according to print date.
+
+#### Errata for the 1st edition, first printing (June, 2022)
+
+-   Page 9. At the top pf the page, "...polynomial modelpolynomial" should be "...polynomial model." (Thanks to @RaymondBalise)
+
+-   Page 9. Just below the figure caption, "...MSE" should be "...MSE (mean squared error)." (Thanks to @RaymondBalise)
+
+-   Page 22. In the last paragraph, "(red curve)" should be "(black curve)." (Thanks to @RaymondBalise)
+
+-   Page 48. Just before the function at the bottom of the page, "...<img src="https://user-images.githubusercontent.com/18148282/172916991-a153f5e8-0585-4ad6-9c2c-5f642bb53627.png" alt="image" width="70"/>" should be "...see `` ?`[` ``." (Thanks to @RaymondBalise)
+
+-   Page 72. In the second to last paragraph, "...take $\mathcal{T}_0$ to be the left tree in Figure 2.12" should be "...take T_0 to be the left tree in Figure 2.13." (Thanks to @RaymondBalise);
+
+-   Page 75. The phrase "...nodes $A_5$--$A_7$" is confusing (since the tree nodes are not labeled left to right and top to bottom) and should probably be changed to "...nodes $A_9$, $A_5$, and $A_3$".
+
+-   Page 97. "...Cleveland dot plot displayed in Figure ??" should be "...Cleveland dot plot displayed in Figure 2.24. (Thanks to @RaymondBalise)

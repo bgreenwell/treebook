@@ -1,0 +1,19 @@
+---
+title: "Data sets"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Swiss banknote data
+
+The Swiss banknote data (FIXME: ADD CITATION) contain measurements from 200 Swiss 1000-franc banknotes (100 genuine and 100 counterfeit). For R users, the data are conveniently available as the `banknote` data frame in package [treemisc](https://github.com/bgreenwell/treemisc).
+
+Download: ([.csv](https://bgreenwell.github.io/treebook/datasets/banknote.csv), .RData).
+
+
+### References
+

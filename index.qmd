@@ -1,0 +1,30 @@
+---
+title: "Tree-based methods"
+---
+
+Welcome to *Tree-Based Methods for Statistical Learning in R*. Tree-based methods, as viewed in this book, refer to a broad family of algorithms that rely on *decision trees*, of which this book attempts to provide a thorough treatment. This is not a general statistical or machine learning book, nor is it an R book. Consequently, some familiarity with both would be useful, but I've tried to keep the core material as accessible and practical as possible to a broad audience (even if you're not an R programmer or master of statistical and machine learning). That being said, I'm a firm believer in learning by doing, and in understanding concept through code examples. To that end, almost every major section in this book is followed-up by general programming examples to help further drive the material home. Therefore, this book necessarily involves a lot of code snippets.
+
+This website is where I plan to include chapter exercises, code to reproduce most of the examples and figures in the book, errata, and various supplementary material.
+
+Contributions from the community are more than welcome! If you notice something is missing from the website (e.g., the code to reproduce one of the figures or examples) or notice an issue in the book (e.g., typos or problems with the material), please don't hesitate to reach out. A good place to report such problems is the companion website's GitHub issues tab located at
+
+https://github.com/bgreenwell/treebook/issues.
+
+Even if it's a section of the material you found confusing or hard to understand, I want to hear about it!
+
+## Who is this book for?
+
+This book is primarily aimed at researchers and practitioners who want to go beyond a fundamental understanding of tree-based methods, such as decision trees and tree-based ensembles. It could also serve as a useful supplementary text for a graduate level course on statistical and machine learning. Some parts of the book necessarily involve more math and notation than others, but where possible, I try to use code to make the concepts more comprehensible. For example, Chapter 3 on *conditional inference trees* involves a bit of linear algebra and intimidating matrix notation, but the math-oriented sections can often be skipped without sacrificing too much in the way of understanding the core concepts; the adjacent code examples should also help drive the main concepts home by connecting the math to simple coding logic.
+
+Nonetheless, this book does assume some familiarity with the basics of statistical and machine learning, as well as the R programming language. Useful references and resources are provided in the introductory material in Chapter 1. While I try to provide sufficient detail and background where possible, some topics could only be given cursory treatment, though, whenever possible, I try to point the more ambitious reader in the right direction in terms of references.
+
+## The `treemisc` package
+
+Along with the companion website, there's also a companion R package, called \`treemisc\`, that houses a number of the data sets and functions used throughout this book. Installation instructions and documentation can be found in the package's \[GitHub repository\](https://github.com/bgreenwell/treemisc).
+
+To install directly from GitHub, use:
+
+```{r, eval=FALSE}
+# install.packages("remotes")  # requires remotes package
+remotes::install_github('bgreenwell/treemisc')
+```
