@@ -1,5 +1,5 @@
 ---
-title: "R code"
+title: "R scripts (and a little Python)"
 description: |
   Some additional details about the website
 ---

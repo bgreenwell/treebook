@@ -2,7 +2,7 @@
   {
     "objectID": "rscripts.html",
     "href": "rscripts.html",
-    "title": "R code",
+    "title": "R scripts (and a little Python)",
     "section": "",
     "text": "Links to R code by chapter\n\nChapter 1: Introduction\nChapter 2: Binary recursive partitioning with CART\nChapter 3: Conditional inference trees\nChapter 4: The hitchhiker’s GUIDE to modern decision trees\nChapter 5: Ensemble algorithms\nChapter 6: Peeking inside the “black box”: post-hoc interpretability\nChapter 7: Random forests\nChapter 8: Gradient boosting machines"
   },
@@ -16,21 +16,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Tree-based methods",
+    "title": "About this book",
     "section": "",
     "text": "Welcome to Tree-Based Methods for Statistical Learning in R. Tree-based methods, as viewed in this book, refer to a broad family of algorithms that rely on decision trees, of which this book attempts to provide a thorough treatment. This is not a general statistical or machine learning book, nor is it an R book. Consequently, some familiarity with both would be useful, but I’ve tried to keep the core material as accessible and practical as possible to a broad audience (even if you’re not an R programmer or master of statistical and machine learning). That being said, I’m a firm believer in learning by doing, and in understanding concept through code examples. To that end, almost every major section in this book is followed-up by general programming examples to help further drive the material home. Therefore, this book necessarily involves a lot of code snippets.\nThis website is where I plan to include chapter exercises, code to reproduce most of the examples and figures in the book, errata, and various supplementary material.\nContributions from the community are more than welcome! If you notice something is missing from the website (e.g., the code to reproduce one of the figures or examples) or notice an issue in the book (e.g., typos or problems with the material), please don’t hesitate to reach out. A good place to report such problems is the companion website’s GitHub issues tab located at\nhttps://github.com/bgreenwell/treebook/issues.\nEven if it’s a section of the material you found confusing or hard to understand, I want to hear about it!"
   },
   {
     "objectID": "index.html#who-is-this-book-for",
     "href": "index.html#who-is-this-book-for",
-    "title": "Tree-based methods",
+    "title": "About this book",
     "section": "Who is this book for?",
     "text": "Who is this book for?\nThis book is primarily aimed at researchers and practitioners who want to go beyond a fundamental understanding of tree-based methods, such as decision trees and tree-based ensembles. It could also serve as a useful supplementary text for a graduate level course on statistical and machine learning. Some parts of the book necessarily involve more math and notation than others, but where possible, I try to use code to make the concepts more comprehensible. For example, Chapter 3 on conditional inference trees involves a bit of linear algebra and intimidating matrix notation, but the math-oriented sections can often be skipped without sacrificing too much in the way of understanding the core concepts; the adjacent code examples should also help drive the main concepts home by connecting the math to simple coding logic.\nNonetheless, this book does assume some familiarity with the basics of statistical and machine learning, as well as the R programming language. Useful references and resources are provided in the introductory material in Chapter 1. While I try to provide sufficient detail and background where possible, some topics could only be given cursory treatment, though, whenever possible, I try to point the more ambitious reader in the right direction in terms of references."
   },
   {
     "objectID": "index.html#the-treemisc-package",
     "href": "index.html#the-treemisc-package",
-    "title": "Tree-based methods",
+    "title": "About this book",
     "section": "The treemisc package",
     "text": "The treemisc package\nAlong with the companion website, there’s also a companion R package, called `treemisc`, that houses a number of the data sets and functions used throughout this book. Installation instructions and documentation can be found in the package’s [GitHub repository](https://github.com/bgreenwell/treemisc).\nTo install directly from GitHub, use:\n\n# install.packages(\"remotes\")  # requires remotes package\nremotes::install_github('bgreenwell/treemisc')"
   },
