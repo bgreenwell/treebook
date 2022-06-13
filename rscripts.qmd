@@ -1,5 +1,5 @@
 ---
-title: "R scripts (and a little Python)"
+title: "R (and other) scripts"
 description: |
   Some additional details about the website
 ---
@@ -27,3 +27,5 @@ This page contains all of the code needed to reproduce just about every example 
 -   [Chapter 7: Random forests](scripts/chap-rf.R)
 
 -   [Chapter 8: Gradient boosting machines](scripts/chap-gbm.R)
+
+    -   [NGBoost example in Python](scripts/chap-gbm-ngboost.py)

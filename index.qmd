@@ -10,9 +10,7 @@ Welcome to *Tree-Based Methods for Statistical Learning in R*. Tree-based method
 
 This website is where I plan to include chapter exercises, code to reproduce most of the examples and figures in the book, errata, and various supplementary material.
 
-Contributions from the community are more than welcome! If you notice something is missing from the website (e.g., the code to reproduce one of the figures or examples) or notice an issue in the book (e.g., typos or problems with the material), please don't hesitate to reach out. A good place to report such problems is the companion website's GitHub issues tab located at
-
-https://github.com/bgreenwell/treebook/issues.
+Contributions from the community are more than welcome! If you notice something is missing from the website (e.g., the code to reproduce one of the figures or examples) or notice an issue in the book (e.g., typos or problems with the material), please don't hesitate to reach out. A good place to report such problems is the companion website's [GitHub issues tab](https://github.com/bgreenwell/treebook/issues.).
 
 Even if it's a section of the material you found confusing or hard to understand, I want to hear about it!
 
@@ -24,7 +22,7 @@ Nonetheless, this book does assume some familiarity with the basics of statistic
 
 ## The `treemisc` package
 
-Along with the companion website, there's also a companion R package, called \`treemisc\`, that houses a number of the data sets and functions used throughout this book. Installation instructions and documentation can be found in the package's \[GitHub repository\](https://github.com/bgreenwell/treemisc).
+Along with the companion website, there's also a companion R package, called \`treemisc\`, that houses a number of the data sets and functions used throughout this book. Installation instructions and documentation can be found in the package's [GitHub repository](https://github.com/bgreenwell/treemisc)
 
 To install directly from GitHub, use:
 
