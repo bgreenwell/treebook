@@ -1,14 +1,14 @@
 ---
 title: "Errata"
 description: |
-  Some additional details about the website
+  To submit errata, please use the website's [GitHub issue's tab](https://github.com/bgreenwell/treebook/issues); if needed, feel free to submit via email instead.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Thank you for sending in errata. Please check against the errata already posted, which are grouped according to print date.
+Thank you for sending in errata. Before submitting, please check against the errata already posted here, which are grouped according to print date.
 
 #### Errata for the 1st edition, first printing (June, 2022)
 
