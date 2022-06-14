@@ -35,6 +35,20 @@
     "text": "The treemisc package\nAlong with the companion website, there’s also a companion R package, called `treemisc`, that houses a number of the data sets and functions used throughout this book. Installation instructions and documentation can be found in the package’s GitHub repository\nTo install directly from GitHub, use:\n\n# install.packages(\"remotes\")  # requires remotes package\nremotes::install_github('bgreenwell/treemisc')"
   },
   {
+    "objectID": "index.html#about-the-author",
+    "href": "index.html#about-the-author",
+    "title": "About this book",
+    "section": "About the author",
+    "text": "About the author\nI’m a data scientist at 84.51° where I works on a diverse team to enable, empower, and enculturate statistical and machine learning best practices where it’s applicable to help others solve real business problems. I received a B.S. in Statistics and an M.S. in Applied Statistics from Wright State University, and a Ph.D. in Applied Mathematics from the Air Force Institute of Technology. I was part of the Adjunct Graduate Faculty at Wright State University, and currently an Adjunct Instructor at the University of Cincinnati. I’m also the lead developer and maintainer of several R packages available on CRAN (and off CRAN), and co-author of Hands-On Machine Learning with R"
+  },
+  {
+    "objectID": "index.html#reviews",
+    "href": "index.html#reviews",
+    "title": "About this book",
+    "section": "Review(s)",
+    "text": "Review(s)\nTree-based algorithms have been a workhorse for data science teams for decades, but the data science field has lacked an all-encompassing review of trees — and their modern variants like XGBoost — until now. Greenwell has written the ultimate guide for tree-based methods: how they work, their pitfalls, and alternative solutions. He puts it all together in a readable and immediately usable book. You’re guaranteed to learn new tips and tricks to help your data science team.\n-Alex Gutman, Director of Data Science, Author: Becoming a Data Head: How to Think, Speak and Understand Data Science, Statistics and Machine Learning"
+  },
+  {
     "objectID": "howtoorder.html",
     "href": "howtoorder.html",
     "title": "Ordering information",
