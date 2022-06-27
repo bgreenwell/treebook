@@ -1,0 +1,21 @@
+---
+title: "Post 1"
+author: "Brandon M. Greenwell"
+date: "June 20, 2022"
+---
+
+Just a test post...
+
+ABC.
+
+ABC.
+
+``` R
+1 + 1
+```
+
+```{r}
+library(pdp)
+
+summary(lm(cmedv ~ ., data = boston))
+```

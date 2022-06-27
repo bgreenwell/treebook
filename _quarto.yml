@@ -27,6 +27,8 @@ website:
         href: errata.qmd 
       - text: "Supplementary"
         href: supplementary.qmd
+      # - text: "Blog"
+      #   href: blog.qmd
 
 format:
   html:

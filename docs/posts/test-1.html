@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Brandon M. Greenwell">
+<meta name="dcterms.date" content="2022-06-20">
 
-<title>Tree-Based Methods for Statistical Learning - About this book</title>
+<title>Tree-Based Methods for Statistical Learning - Post 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,22 +83,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -118,7 +120,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -127,7 +129,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Tree-Based Methods for Statistical Learning</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -156,22 +158,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="../index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./howtoorder.html">How to order</a>
+    <a class="nav-link" href="../howtoorder.html">How to order</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./rscripts.html">R scripts</a>
+    <a class="nav-link" href="../rscripts.html">R scripts</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./datasets.html">Data sets</a>
+    <a class="nav-link" href="../datasets.html">Data sets</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./errata.html">Errata</a>
+    <a class="nav-link" href="../errata.html">Errata</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./supplementary.html">Supplementary</a>
+    <a class="nav-link" href="../supplementary.html">Supplementary</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -184,71 +186,84 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#who-is-this-book-for" id="toc-who-is-this-book-for" class="nav-link active" data-scroll-target="#who-is-this-book-for">Who is this book for?</a></li>
-  <li><a href="#the-treemisc-package" id="toc-the-treemisc-package" class="nav-link" data-scroll-target="#the-treemisc-package">The <code>treemisc</code> package</a></li>
-  <li><a href="#about-the-author" id="toc-about-the-author" class="nav-link" data-scroll-target="#about-the-author">About the author</a></li>
-  <li><a href="#reviews" id="toc-reviews" class="nav-link" data-scroll-target="#reviews">Review(s)</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About this book</h1>
+<h1 class="title">Post 1</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Brandon M. Greenwell </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 20, 2022</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p><strong>WARNING:</strong> This site is still very much a work in progress!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.routledge.com/Tree-Based-Methods-for-Statistical-Learning-in-R/Greenwell/p/book/9780367532468"><img src="images/9780367532468_cover.jpg" class="img-fluid figure-img" style="width:80.0%"></a></p>
-</figure>
-</div>
-<p>Welcome to <em>Tree-Based Methods for Statistical Learning in R</em>. Tree-based methods, as viewed in this book, refer to a broad family of algorithms that rely on <em>decision trees</em>, of which this book attempts to provide a thorough treatment. This is not a general statistical or machine learning book, nor is it an R book. Consequently, some familiarity with both would be useful, but I’ve tried to keep the core material as accessible and practical as possible to a broad audience (even if you’re not an R programmer or master of statistical and machine learning). That being said, I’m a firm believer in learning by doing, and in understanding concept through code examples. To that end, almost every major section in this book is followed-up by general programming examples to help further drive the material home. Therefore, this book necessarily involves a lot of code snippets.</p>
-<p>This website is where I plan to include chapter exercises, code to reproduce most of the examples and figures in the book, errata, and various supplementary material.</p>
-<p>Contributions from the community are more than welcome! If you notice something is missing from the website (e.g., the code to reproduce one of the figures or examples) or notice an issue in the book (e.g., typos or problems with the material), please don’t hesitate to reach out. A good place to report such problems is the companion website’s <a href="https://github.com/bgreenwell/treebook/issues.">GitHub issues tab</a>.</p>
-<p>Even if it’s a section of the material you found confusing or hard to understand, I want to hear about it!</p>
-<section id="who-is-this-book-for" class="level2">
-<h2 class="anchored" data-anchor-id="who-is-this-book-for">Who is this book for?</h2>
-<p>This book is primarily aimed at researchers and practitioners who want to go beyond a fundamental understanding of tree-based methods, such as decision trees and tree-based ensembles. It could also serve as a useful supplementary text for a graduate level course on statistical and machine learning. Some parts of the book necessarily involve more math and notation than others, but where possible, I try to use code to make the concepts more comprehensible. For example, Chapter 3 on <em>conditional inference trees</em> involves a bit of linear algebra and intimidating matrix notation, but the math-oriented sections can often be skipped without sacrificing too much in the way of understanding the core concepts; the adjacent code examples should also help drive the main concepts home by connecting the math to simple coding logic.</p>
-<p>Nonetheless, this book does assume some familiarity with the basics of statistical and machine learning, as well as the R programming language. Useful references and resources are provided in the introductory material in Chapter 1. While I try to provide sufficient detail and background where possible, some topics could only be given cursory treatment, though, whenever possible, I try to point the more ambitious reader in the right direction in terms of references.</p>
-</section>
-<section id="the-treemisc-package" class="level2">
-<h2 class="anchored" data-anchor-id="the-treemisc-package">The <code>treemisc</code> package</h2>
-<p>Along with the companion website, there’s also a companion R package, called `treemisc`, that houses a number of the data sets and functions used throughout this book. Installation instructions and documentation can be found in the package’s <a href="https://github.com/bgreenwell/treemisc">GitHub repository</a></p>
-<p>To install directly from GitHub, use:</p>
+<p>Just a test post…</p>
+<p>ABC.</p>
+<p>ABC.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("remotes")  # requires remotes package</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">'bgreenwell/treemisc'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(pdp)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(<span class="fu">lm</span>(cmedv <span class="sc">~</span> ., <span class="at">data =</span> boston))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = cmedv ~ ., data = boston)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-15.5831  -2.7643  -0.5994   1.7482  26.0822 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) -4.350e+02  3.032e+02  -1.435 0.152029    
+lon         -3.935e+00  3.372e+00  -1.167 0.243770    
+lat          4.495e+00  3.669e+00   1.225 0.221055    
+crim        -1.045e-01  3.261e-02  -3.206 0.001436 ** 
+zn           4.657e-02  1.374e-02   3.390 0.000755 ***
+indus        1.524e-02  6.175e-02   0.247 0.805106    
+chas1        2.578e+00  8.650e-01   2.980 0.003024 ** 
+nox         -1.582e+01  4.005e+00  -3.951 8.93e-05 ***
+rm           3.754e+00  4.166e-01   9.011  &lt; 2e-16 ***
+age          2.468e-03  1.335e-02   0.185 0.853440    
+dis         -1.400e+00  2.088e-01  -6.704 5.61e-11 ***
+rad          3.067e-01  6.658e-02   4.607 5.23e-06 ***
+tax         -1.289e-02  3.727e-03  -3.458 0.000592 ***
+ptratio     -8.771e-01  1.363e-01  -6.436 2.92e-10 ***
+b            9.176e-03  2.663e-03   3.446 0.000618 ***
+lstat       -5.374e-01  5.042e-02 -10.660  &lt; 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 4.7 on 490 degrees of freedom
+Multiple R-squared:  0.7458,    Adjusted R-squared:  0.738 
+F-statistic: 95.82 on 15 and 490 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
-</section>
-<section id="about-the-author" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-author">About the author</h2>
-<p>I’m a data scientist at 84.51° where I work to enable, empower, and enculturate statistical and machine learning best practices where it’s applicable to help others solve real business problems. I received a B.S. in Statistics and an M.S. in Applied Statistics from Wright State University, and a Ph.D.&nbsp;in Applied Mathematics from the Air Force Institute of Technology. I was part of the Adjunct Graduate Faculty at Wright State University, and currently an Adjunct Instructor at the University of Cincinnati. I’m also the lead developer and maintainer of several R packages available <a href="https://cran.r-project.org/">on CRAN</a> (and <a href="https://github.com/bgreenwell">off CRAN</a>), and co-author of <a href="https://www.routledge.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685">Hands-On Machine Learning with R</a></p>
-</section>
-<section id="reviews" class="level2">
-<h2 class="anchored" data-anchor-id="reviews">Review(s)</h2>
-<p>Tree-based algorithms have been a workhorse for data science teams for decades, but the data science field has lacked an all-encompassing review of trees — and their modern variants like XGBoost — until now. Greenwell has written the ultimate guide for tree-based methods: how they work, their pitfalls, and alternative solutions. He puts it all together in a readable and immediately usable book. You’re guaranteed to learn new tips and tricks to help your data science team.</p>
-<p>-Alex Gutman, Director of Data Science, Author: <a href="https://www.amazon.com/Becoming-Data-Head-Understand-Statistics/dp/1119741742">Becoming a Data Head: How to Think, Speak and Understand Data Science, Statistics and Machine Learning</a></p>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -7,6 +7,20 @@
     "text": "Download R code by chapter\n\nChapter 1: Introduction\nChapter 2: Binary recursive partitioning with CART\nChapter 3: Conditional inference trees\nChapter 4: The hitchhiker’s GUIDE to modern decision trees\nChapter 5: Ensemble algorithms\nChapter 6: Peeking inside the “black box”: post-hoc interpretability\nChapter 7: Random forests\nChapter 8: Gradient boosting machines\n\nNGBoost example in Python"
   },
   {
+    "objectID": "posts/test-2.html",
+    "href": "posts/test-2.html",
+    "title": "Tree-Based Methods for Statistical Learning",
+    "section": "",
+    "text": "Just a test post…"
+  },
+  {
+    "objectID": "posts/test-1.html",
+    "href": "posts/test-1.html",
+    "title": "Post 1",
+    "section": "",
+    "text": "ABC.\nABC.\n1 + 1\n\nlibrary(pdp)\n\nsummary(lm(cmedv ~ ., data = boston))\n\n\nCall:\nlm(formula = cmedv ~ ., data = boston)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-15.5831  -2.7643  -0.5994   1.7482  26.0822 \n\nCoefficients:\n              Estimate Std. Error t value Pr(>|t|)    \n(Intercept) -4.350e+02  3.032e+02  -1.435 0.152029    \nlon         -3.935e+00  3.372e+00  -1.167 0.243770    \nlat          4.495e+00  3.669e+00   1.225 0.221055    \ncrim        -1.045e-01  3.261e-02  -3.206 0.001436 ** \nzn           4.657e-02  1.374e-02   3.390 0.000755 ***\nindus        1.524e-02  6.175e-02   0.247 0.805106    \nchas1        2.578e+00  8.650e-01   2.980 0.003024 ** \nnox         -1.582e+01  4.005e+00  -3.951 8.93e-05 ***\nrm           3.754e+00  4.166e-01   9.011  < 2e-16 ***\nage          2.468e-03  1.335e-02   0.185 0.853440    \ndis         -1.400e+00  2.088e-01  -6.704 5.61e-11 ***\nrad          3.067e-01  6.658e-02   4.607 5.23e-06 ***\ntax         -1.289e-02  3.727e-03  -3.458 0.000592 ***\nptratio     -8.771e-01  1.363e-01  -6.436 2.92e-10 ***\nb            9.176e-03  2.663e-03   3.446 0.000618 ***\nlstat       -5.374e-01  5.042e-02 -10.660  < 2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 4.7 on 490 degrees of freedom\nMultiple R-squared:  0.7458,    Adjusted R-squared:  0.738 \nF-statistic: 95.82 on 15 and 490 DF,  p-value: < 2.2e-16"
+  },
+  {
     "objectID": "supplementary.html",
     "href": "supplementary.html",
     "title": "Online supplementary material",
@@ -39,7 +53,7 @@
     "href": "index.html#about-the-author",
     "title": "About this book",
     "section": "About the author",
-    "text": "About the author\nI’m a data scientist at 84.51° where I works on a diverse team to enable, empower, and enculturate statistical and machine learning best practices where it’s applicable to help others solve real business problems. I received a B.S. in Statistics and an M.S. in Applied Statistics from Wright State University, and a Ph.D. in Applied Mathematics from the Air Force Institute of Technology. I was part of the Adjunct Graduate Faculty at Wright State University, and currently an Adjunct Instructor at the University of Cincinnati. I’m also the lead developer and maintainer of several R packages available on CRAN (and off CRAN), and co-author of Hands-On Machine Learning with R"
+    "text": "About the author\nI’m a data scientist at 84.51° where I work to enable, empower, and enculturate statistical and machine learning best practices where it’s applicable to help others solve real business problems. I received a B.S. in Statistics and an M.S. in Applied Statistics from Wright State University, and a Ph.D. in Applied Mathematics from the Air Force Institute of Technology. I was part of the Adjunct Graduate Faculty at Wright State University, and currently an Adjunct Instructor at the University of Cincinnati. I’m also the lead developer and maintainer of several R packages available on CRAN (and off CRAN), and co-author of Hands-On Machine Learning with R"
   },
   {
     "objectID": "index.html#reviews",
@@ -60,13 +74,20 @@
     "href": "datasets.html",
     "title": "Data sets used in this book",
     "section": "",
-    "text": "References\nCITATION goes here."
+    "text": "The Swiss banknote data contain measurements from 200 Swiss 1000-franc banknotes: 100 genuine (y = 0) and 100 counterfeit (y = 1). For R users, the data are conveniently available as the banknote data frame in package treemisc, and can be loaded using\n\nbn <- treemisc::banknote\n\nDownload: banknote.csv\nReferences\nFlury, B. and Riedwyl, H. (1988). Multivariate Statistics: A practical approach. London: Chapman & Hall, Tables 1.1 and 1.2, pp. 5-8."
   },
   {
     "objectID": "errata.html",
     "href": "errata.html",
     "title": "Errata",
     "section": "",
-    "text": "Errata for the 1st edition, first printing (June, 2022)\n\nPage 9. At the top pf the page, “…polynomial modelpolynomial” should be “…polynomial model.” (Thanks to @RaymondBalise)\nPage 9. Just below the figure caption, “…MSE” should be “…MSE (mean squared error).” (Thanks to @RaymondBalise)\nPage 22. In the last paragraph, “(red curve)” should be “(black curve).” (Thanks to @RaymondBalise)\nPage 48. Just before the function at the bottom of the page, “…” should be “…see ?`[`.” (Thanks to @RaymondBalise)\nPage 72. In the second to last paragraph, “…take \\(\\mathcal{T}_0\\) to be the left tree in Figure 2.12” should be “…take T_0 to be the left tree in Figure 2.13.” (Thanks to @RaymondBalise);\nPage 75. The phrase “…nodes \\(A_5\\)–\\(A_7\\)” is confusing (since the tree nodes are not labeled left to right and top to bottom) and should probably be changed to “…nodes \\(A_9\\), \\(A_5\\), and \\(A_3\\)”.\nPage 97. “…Cleveland dot plot displayed in Figure ??” should be “…Cleveland dot plot displayed in Figure 2.24. (Thanks to @RaymondBalise)"
+    "text": "Errata for the 1st edition, first printing (June, 2022)\n\nPage 9. At the top pf the page, “…polynomial modelpolynomial” should be “…polynomial model.” (Thanks to @RaymondBalise)\nPage 9. Just below the figure caption, “…MSE” should be “…MSE (mean squared error).” (Thanks to @RaymondBalise)\nPage 22. In the last paragraph, “(red curve)” should be “(black curve).” (Thanks to @RaymondBalise)\nPage 48. Just before the function at the bottom of the page, “…” should be “…see ?`[`.” (Thanks to @RaymondBalise)\nPage 72. In the second to last paragraph, “…take \\(\\mathcal{T}_0\\) to be the left tree in Figure 2.12” should be “…take T_0 to be the left tree in Figure 2.13.” (Thanks to @RaymondBalise);\nPage 75. The phrase “…nodes \\(A_5\\)–\\(A_7\\)” is confusing (since the tree nodes are not labeled left to right and top to bottom) and should probably be changed to “…nodes \\(A_9\\), \\(A_5\\), and \\(A_3\\)”.\nPage 97. “…Cleveland dot plot displayed in Figure ??” should be “…Cleveland dot plot displayed in Figure 2.24. (Thanks to @RaymondBalise)\nPage 128. Missing closing parentheses at the end of the first paragraph in Section 3.4.4.\nPage 197. Towards the bottom of the page, “…in an ordinary bagged tree ensemble).” should be “…in an ordinary bagged tree ensemble” (random closing parentheses).\nPage 276. The last line of Section 7.8 uses notation that’s inconsistent with the notation in Section 6.3. In particular, “…to the difference in \\(f\\left(x^\\star\\right) - E\\left[\\hat{f}\\left(x\\right)\\right] = 0.51\\)” should probably be changed to “…to the difference \\(\\hat{f}\\left(\\boldsymbol{x}^\\star\\right) - \\bar{f} = 0.51\\).”\nPage 301. In footnote “w”, sparkR should be SparkR (i.e., it’s spelled in upper camel case)."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Jun 20, 2022\n\n\nBrandon M. Greenwell\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]

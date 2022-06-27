@@ -33,7 +33,7 @@ remotes::install_github('bgreenwell/treemisc')
 
 ## About the author
 
-I'm a data scientist at 84.51° where I works on a diverse team to enable, empower, and enculturate statistical and machine learning best practices where it's applicable to help others solve real business problems. I received a B.S. in Statistics and an M.S. in Applied Statistics from Wright State University, and a Ph.D. in Applied Mathematics from the Air Force Institute of Technology. I was part of the Adjunct Graduate Faculty at Wright State University, and currently an Adjunct Instructor at the University of Cincinnati. I'm also the lead developer and maintainer of several R packages available [on CRAN](https://cran.r-project.org/) (and [off CRAN](https://github.com/bgreenwell)), and co-author of [Hands-On Machine Learning with R](https://www.routledge.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685)
+I'm a data scientist at 84.51° where I work to enable, empower, and enculturate statistical and machine learning best practices where it's applicable to help others solve real business problems. I received a B.S. in Statistics and an M.S. in Applied Statistics from Wright State University, and a Ph.D. in Applied Mathematics from the Air Force Institute of Technology. I was part of the Adjunct Graduate Faculty at Wright State University, and currently an Adjunct Instructor at the University of Cincinnati. I'm also the lead developer and maintainer of several R packages available [on CRAN](https://cran.r-project.org/) (and [off CRAN](https://github.com/bgreenwell)), and co-author of [Hands-On Machine Learning with R](https://www.routledge.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685)
 
 ## Review(s)
 

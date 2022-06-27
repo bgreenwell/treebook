@@ -25,3 +25,11 @@ Thank you for sending in errata. Before submitting, please check against the err
 -   Page 75. The phrase "...nodes $A_5$--$A_7$" is confusing (since the tree nodes are not labeled left to right and top to bottom) and should probably be changed to "...nodes $A_9$, $A_5$, and $A_3$".
 
 -   Page 97. "...Cleveland dot plot displayed in Figure ??" should be "...Cleveland dot plot displayed in Figure 2.24. (Thanks to @RaymondBalise)
+
+-   Page 128. Missing closing parentheses at the end of the first paragraph in Section 3.4.4.
+
+-   Page 197. Towards the bottom of the page, "...in an ordinary bagged tree ensemble)." should be "...in an ordinary bagged tree ensemble" (random closing parentheses).
+
+-   Page 276. The last line of Section 7.8 uses notation that's inconsistent with the notation in Section 6.3. In particular, "...to the difference in $f\left(x^\star\right) - E\left[\hat{f}\left(x\right)\right] = 0.51$" should probably be changed to "...to the difference $\hat{f}\left(\boldsymbol{x}^\star\right) - \bar{f} = 0.51$."
+
+-   Page 301. In footnote "w", **sparkR** should be **SparkR** (i.e., it's spelled in upper camel case).

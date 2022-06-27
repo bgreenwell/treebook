@@ -3,15 +3,19 @@ title: "Data sets used in this book"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Swiss banknote data
+## Swiss banknote data
 
-The Swiss banknote data (FIXME: ADD CITATION) contain measurements from 200 Swiss 1000-franc banknotes (100 genuine and 100 counterfeit). For R users, the data are conveniently available as the `banknote` data frame in package [treemisc](https://github.com/bgreenwell/treemisc).
+The Swiss banknote data contain measurements from 200 Swiss 1000-franc banknotes: 100 genuine (`y = 0`) and 100 counterfeit (`y = 1`). For R users, the data are conveniently available as the `banknote` data frame in package [treemisc](https://github.com/bgreenwell/treemisc), and can be loaded using
 
-Download: ([.csv](https://bgreenwell.github.io/treebook/datasets/banknote.csv), .RData).
+```{r, eval=FALSE}
+bn <- treemisc::banknote
+```
 
-### References
+Download: [banknote.csv](https://bgreenwell.github.io/treebook/datasets/banknote.csv)
 
-CITATION goes here.
+**References**
+
+Flury, B. and Riedwyl, H. (1988). *Multivariate Statistics: A practical approach.* London: Chapman & Hall, Tables 1.1 and 1.2, pp. 5-8.
