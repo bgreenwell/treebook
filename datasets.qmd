@@ -10,8 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The Swiss banknote data contain measurements from 200 Swiss 1000-franc banknotes: 100 genuine (`y = 0`) and 100 counterfeit (`y = 1`). For R users, the data are conveniently available as the `banknote` data frame in package [treemisc](https://github.com/bgreenwell/treemisc), and can be loaded using
 
-```{r, eval=FALSE}
-bn <- treemisc::banknote
+```{r, eval=TRUE}
+head(bn <- treemisc::banknote)
 ```
 
 Download: [banknote.csv](https://bgreenwell.github.io/treebook/datasets/banknote.csv)
@@ -19,3 +19,46 @@ Download: [banknote.csv](https://bgreenwell.github.io/treebook/datasets/banknote
 **References**
 
 Flury, B. and Riedwyl, H. (1988). *Multivariate Statistics: A practical approach.* London: Chapman & Hall, Tables 1.1 and 1.2, pp. 5-8.
+
+## New York air quality measurements
+
+The New York air quality data contain daily air quality measurements in New York from May through September of 1973 (153 days). The data are conveniently available in R's built-in **datasets** package; see `?datasets::airquality` for details and the original source. The main variables include:
+
+-   `Ozone`: the mean ozone (in parts per billion) from 1300 to 1500 hours at Roosevelt Island;
+
+-   `Solar.R`: the solar radiation (in Langleys) in the frequency band 4000--7700 Angstroms from 0800 to 1200 hours at Central Park;
+
+-   `Wind`: the average wind speed (in miles per hour) at 0700 and 1000 hours at LaGuardia Airport;
+
+-   `Temp`: the maximum daily temperature (in degrees Fahrenheit) at La Guardia Airport.
+
+The month (1--12) and day of the month (1--31) are also available in the columns `Month`and `Day`, respectively. In these data, `Ozone` is treated as a response variable.
+
+```{r, eval=TRUE}
+head(aq <- airquality)
+```
+
+Download: [airquality.csv](datasets/airquality.csv)
+
+## The Friedman 1 benchmark data
+
+The Friedman 1 benchmark problem uses simulated regression data with 10 input features according to:
+
+$$
+Y = 10 \sin\left(\pi X_1 X_2\right) + 20 \left(X_3 - 0.5\right) ^ 2 + 10 X_4 + 5 X_5 + \epsilon,
+$$
+
+where $\epsilon \sim \mathcal{N}\left(0, \sigma\right)$ and the input features are all independent uniform random variables on the interval $\left[0, 1\right]$: $\left\{X_j\right\}_{j = 1}^10 \stackrel{iid}{\sim} \mathcal{U}\left(0, 1\right)$. Notice how $X_6$--$X_{10}$ are unrelated to the response $Y$.
+
+These data can be generated in R using the `mlbench.friedman1()` function from package **mlbench**. Here, I'll use the `gen_friedman1()` function from package **treemisc** which allows you to generate any number of features $\ge 5$; similar to the `make\_friedman1()` function in scikit-learn's **sklearn.datasets** module for Python. See `?treemisc::gen_friedman1` for details.
+
+```{r, eval=TRUE}
+set.seed(943)  # for reproducibility
+treemisc::gen_friedman1(5, nx = 7, sigma = 0.1)
+```
+
+Source code:
+
+```{r, eval=TRUE}
+treemisc::gen_friedman1
+```

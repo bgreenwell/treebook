@@ -117,6 +117,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -189,6 +190,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
    
   <ul>
   <li><a href="#swiss-banknote-data" id="toc-swiss-banknote-data" class="nav-link active" data-scroll-target="#swiss-banknote-data">Swiss banknote data</a></li>
+  <li><a href="#new-york-air-quality-measurements" id="toc-new-york-air-quality-measurements" class="nav-link" data-scroll-target="#new-york-air-quality-measurements">New York air quality measurements</a></li>
+  <li><a href="#the-friedman-1-benchmark-data" id="toc-the-friedman-1-benchmark-data" class="nav-link" data-scroll-target="#the-friedman-1-benchmark-data">The Friedman 1 benchmark data</a></li>
   </ul>
 </nav>
     </div>
@@ -215,11 +218,89 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="swiss-banknote-data">Swiss banknote data</h2>
 <p>The Swiss banknote data contain measurements from 200 Swiss 1000-franc banknotes: 100 genuine (<code>y = 0</code>) and 100 counterfeit (<code>y = 1</code>). For R users, the data are conveniently available as the <code>banknote</code> data frame in package <a href="https://github.com/bgreenwell/treemisc">treemisc</a>, and can be loaded using</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>bn <span class="ot">&lt;-</span> treemisc<span class="sc">::</span>banknote</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(bn <span class="ot">&lt;-</span> treemisc<span class="sc">::</span>banknote)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  length  left right bottom  top diagonal y
+1  214.8 131.0 131.1    9.0  9.7    141.0 0
+2  214.6 129.7 129.7    8.1  9.5    141.7 0
+3  214.8 129.7 129.7    8.7  9.6    142.2 0
+4  214.8 129.7 129.6    7.5 10.4    142.0 0
+5  215.0 129.6 129.7   10.4  7.7    141.8 0
+6  215.7 130.8 130.5    9.0 10.1    141.4 0</code></pre>
+</div>
 </div>
 <p>Download: <a href="https://bgreenwell.github.io/treebook/datasets/banknote.csv">banknote.csv</a></p>
 <p><strong>References</strong></p>
 <p>Flury, B. and Riedwyl, H. (1988). <em>Multivariate Statistics: A practical approach.</em> London: Chapman &amp; Hall, Tables 1.1 and 1.2, pp.&nbsp;5-8.</p>
+</section>
+<section id="new-york-air-quality-measurements" class="level2">
+<h2 class="anchored" data-anchor-id="new-york-air-quality-measurements">New York air quality measurements</h2>
+<p>The New York air quality data contain daily air quality measurements in New York from May through September of 1973 (153 days). The data are conveniently available in R’s built-in <strong>datasets</strong> package; see <code>?datasets::airquality</code> for details and the original source. The main variables include:</p>
+<ul>
+<li><p><code>Ozone</code>: the mean ozone (in parts per billion) from 1300 to 1500 hours at Roosevelt Island;</p></li>
+<li><p><code>Solar.R</code>: the solar radiation (in Langleys) in the frequency band 4000–7700 Angstroms from 0800 to 1200 hours at Central Park;</p></li>
+<li><p><code>Wind</code>: the average wind speed (in miles per hour) at 0700 and 1000 hours at LaGuardia Airport;</p></li>
+<li><p><code>Temp</code>: the maximum daily temperature (in degrees Fahrenheit) at La Guardia Airport.</p></li>
+</ul>
+<p>The month (1–12) and day of the month (1–31) are also available in the columns <code>Month</code>and <code>Day</code>, respectively. In these data, <code>Ozone</code> is treated as a response variable.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(aq <span class="ot">&lt;-</span> airquality)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  Ozone Solar.R Wind Temp Month Day
+1    41     190  7.4   67     5   1
+2    36     118  8.0   72     5   2
+3    12     149 12.6   74     5   3
+4    18     313 11.5   62     5   4
+5    NA      NA 14.3   56     5   5
+6    28      NA 14.9   66     5   6</code></pre>
+</div>
+</div>
+<p>Download: <a href="datasets/airquality.csv">airquality.csv</a></p>
+</section>
+<section id="the-friedman-1-benchmark-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-friedman-1-benchmark-data">The Friedman 1 benchmark data</h2>
+<p>The Friedman 1 benchmark problem uses simulated regression data with 10 input features according to:</p>
+<p><span class="math display">\[
+Y = 10 \sin\left(\pi X_1 X_2\right) + 20 \left(X_3 - 0.5\right) ^ 2 + 10 X_4 + 5 X_5 + \epsilon,
+\]</span></p>
+<p>where <span class="math inline">\(\epsilon \sim \mathcal{N}\left(0, \sigma\right)\)</span> and the input features are all independent uniform random variables on the interval <span class="math inline">\(\left[0, 1\right]\)</span>: <span class="math inline">\(\left\{X_j\right\}_{j = 1}^10 \stackrel{iid}{\sim} \mathcal{U}\left(0, 1\right)\)</span>. Notice how <span class="math inline">\(X_6\)</span>–<span class="math inline">\(X_{10}\)</span> are unrelated to the response <span class="math inline">\(Y\)</span>.</p>
+<p>These data can be generated in R using the <code>mlbench.friedman1()</code> function from package <strong>mlbench</strong>. Here, I’ll use the <code>gen_friedman1()</code> function from package <strong>treemisc</strong> which allows you to generate any number of features <span class="math inline">\(\ge 5\)</span>; similar to the <code>make\_friedman1()</code> function in scikit-learn’s <strong>sklearn.datasets</strong> module for Python. See <code>?treemisc::gen_friedman1</code> for details.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">943</span>)  <span class="co"># for reproducibility</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>treemisc<span class="sc">::</span><span class="fu">gen_friedman1</span>(<span class="dv">5</span>, <span class="at">nx =</span> <span class="dv">7</span>, <span class="at">sigma =</span> <span class="fl">0.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>         y        x1        x2        x3        x4        x5         x6
+1 18.47570 0.3459904 0.8530512 0.6551429 0.8385246 0.2930157 0.34084319
+2 13.72402 0.4419899 0.6912439 0.2136197 0.1077115 0.5432351 0.16164747
+3 10.84887 0.2225216 0.7893439 0.8068398 0.2515591 0.2566107 0.85946717
+4 18.93996 0.8594261 0.5196663 0.8911978 0.1285491 0.9356575 0.03476787
+5 14.46567 0.1808317 0.5901250 0.8934141 0.6110807 0.4151859 0.41041196
+          x7
+1 0.05733414
+2 0.50547584
+3 0.72484074
+4 0.71050552
+5 0.26356893</code></pre>
+</div>
+</div>
+<p>Source code:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>treemisc<span class="sc">::</span>gen_friedman1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>function(n = 100, nx = 10, sigma = 0.1) {
+  if (nx &lt; 5) {
+    stop("`nsim` must be &gt;= 5.", call. = FALSE)
+  }
+  x &lt;- matrix(stats::runif(n * nx), ncol = nx)
+  colnames(x) &lt;- paste0("x", seq_len(nx))
+  y = 10 * sin(pi * x[, 1L] * x[, 2L]) + 20 * (x[, 3L] - 0.5) ^ 2 +
+    10 * x[, 4L] + 5 * x[, 5L] + stats::rnorm(n, sd = sigma)
+  as.data.frame(cbind(y = y, x))
+}
+&lt;bytecode: 0x7fc75f1ce188&gt;
+&lt;environment: namespace:treemisc&gt;</code></pre>
+</div>
+</div>
 
 
 </section>
