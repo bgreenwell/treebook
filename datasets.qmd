@@ -6,6 +6,8 @@ title: "Data sets used in this book"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Information pertaining to several of the data sets used throughout the book.
+
 ## Swiss banknote data
 
 The Swiss banknote data contain measurements from 200 Swiss 1000-franc banknotes: 100 genuine (`y = 0`) and 100 counterfeit (`y = 1`). For R users, the data are conveniently available as the `banknote` data frame in package [treemisc](https://github.com/bgreenwell/treemisc), and can be loaded using
