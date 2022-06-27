@@ -10,4 +10,4 @@ You can order the book from one of the vendors listed below (click the icon to l
 
 [![](images/CRC_wg_blue.png){fig-align="left" width="25%"}](https://www.routledge.com/Tree-Based-Methods-for-Statistical-Learning-in-R/Greenwell/p/book/9780367532468)
 
-[![](images/available_at_amazon_US_EN_logo_stacked_RGB_SQUID.png){fig-align="left" width="25%"}](https://www.routledge.com/Tree-Based-Methods-for-Statistical-Learning-in-R/Greenwell/p/book/9780367532468)
+[![](images/available_at_amazon_US_EN_logo_stacked_RGB_SQUID.png){fig-align="left" width="25%"}](https://www.amazon.com/Tree-Based-Methods-Statistical-Learning-Chapman-ebook/dp/B0B1P24BNJ)
