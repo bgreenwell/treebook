@@ -191,6 +191,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#who-is-this-book-for" id="toc-who-is-this-book-for" class="nav-link active" data-scroll-target="#who-is-this-book-for">Who is this book for?</a></li>
   <li><a href="#the-treemisc-package" id="toc-the-treemisc-package" class="nav-link" data-scroll-target="#the-treemisc-package">The <code>treemisc</code> package</a></li>
   <li><a href="#about-the-author" id="toc-about-the-author" class="nav-link" data-scroll-target="#about-the-author">About the author</a></li>
+  <li><a href="#download-a-sample" id="toc-download-a-sample" class="nav-link" data-scroll-target="#download-a-sample">Download a sample</a></li>
   <li><a href="#reviews" id="toc-reviews" class="nav-link" data-scroll-target="#reviews">Review(s)</a></li>
   </ul>
 </nav>
@@ -241,6 +242,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="about-the-author" class="level2">
 <h2 class="anchored" data-anchor-id="about-the-author">About the author</h2>
 <p>I’m a data scientist at 84.51° where I work to enable, empower, and enculturate statistical and machine learning best practices where it’s applicable to help others solve real business problems. I received a B.S. in Statistics and an M.S. in Applied Statistics from Wright State University, and a Ph.D.&nbsp;in Applied Mathematics from the Air Force Institute of Technology. I was part of the Adjunct Graduate Faculty at Wright State University, and currently an Adjunct Instructor at the University of Cincinnati. I’m also the lead developer and maintainer of several R packages available <a href="https://cran.r-project.org/">on CRAN</a> (and <a href="https://github.com/bgreenwell">off CRAN</a>), and co-author of <a href="https://www.routledge.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685">Hands-On Machine Learning with R</a>.</p>
+</section>
+<section id="download-a-sample" class="level2">
+<h2 class="anchored" data-anchor-id="download-a-sample">Download a sample</h2>
+<ul>
+<li><p><a href="samples/building-a-decision-tree.pdf">Building a decision tree</a>: Learn the details of building a CART-like decision tree beyond selecting the splitting variables. For example, learn how <em>cost-complexity</em> is computed (and how it slightly differs in <a href="https://cran.r-project.org/package=rpart">rpart</a>), or learn how pruning and the 1-SE (one standard error) rule are used with cross-validation to select a reasonably sized tree.</p></li>
+<li><p><a href="samples/deforesting-a-random-forest.pdf">“Deforesting” a random forest</a>: Learn how to use the <a href="https://tibshirani.su.domains/lasso.html">LASSO</a> to post-process a random forest by effectively zeroing out some of the trees and reweighting the rest. The zeroed out trees can be removed from the forest object, resulting in a smaller, fast scoring model. The book also shows hot to accomplish this with gradient boosted tree ensembles in a later chapter (there’s a couple of subtle differences involved).</p></li>
+<li><p><a href="samples/gradient-tree-boosting-from-scratch.pdf">Gradient tree boosting from scratch</a>: Gain a deeper understanding (and appreciation) for how gradient tree boosting works by writing your own gradient boosting functions to “boost” a single <a href="https://cran.r-project.org/package=rpart">rpart</a> tree using both <em>least squares</em> (LS) and <em>least absolute deviation</em> (LAD) loss; the latter requires performing the <em>line search</em> step of gradient descent by updating the terminal node estimates of each fitted tree (the code shows two ways fo doing this).</p></li>
+</ul>
 </section>
 <section id="reviews" class="level2">
 <h2 class="anchored" data-anchor-id="reviews">Review(s)</h2>

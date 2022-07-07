@@ -35,6 +35,14 @@ remotes::install_github('bgreenwell/treemisc')
 
 I'm a data scientist at 84.51° where I work to enable, empower, and enculturate statistical and machine learning best practices where it's applicable to help others solve real business problems. I received a B.S. in Statistics and an M.S. in Applied Statistics from Wright State University, and a Ph.D. in Applied Mathematics from the Air Force Institute of Technology. I was part of the Adjunct Graduate Faculty at Wright State University, and currently an Adjunct Instructor at the University of Cincinnati. I'm also the lead developer and maintainer of several R packages available [on CRAN](https://cran.r-project.org/) (and [off CRAN](https://github.com/bgreenwell)), and co-author of [Hands-On Machine Learning with R](https://www.routledge.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685).
 
+## Download a sample
+
+-   [Building a decision tree](samples/building-a-decision-tree.pdf): Learn the details of building a CART-like decision tree beyond selecting the splitting variables. For example, learn how *cost-complexity* is computed (and how it slightly differs in [rpart](https://cran.r-project.org/package=rpart)), or learn how pruning and the 1-SE (one standard error) rule are used with cross-validation to select a reasonably sized tree.
+
+-   ["Deforesting" a random forest](samples/deforesting-a-random-forest.pdf): Learn how to use the [LASSO](https://tibshirani.su.domains/lasso.html) to post-process a random forest by effectively zeroing out some of the trees and reweighting the rest. The zeroed out trees can be removed from the forest object, resulting in a smaller, fast scoring model. The book also shows hot to accomplish this with gradient boosted tree ensembles in a later chapter (there's a couple of subtle differences involved).
+
+-   [Gradient tree boosting from scratch](samples/gradient-tree-boosting-from-scratch.pdf): Gain a deeper understanding (and appreciation) for how gradient tree boosting works by writing your own gradient boosting functions to "boost" a single [rpart](https://cran.r-project.org/package=rpart) tree using both *least squares* (LS) and *least absolute deviation* (LAD) loss; the latter requires performing the *line search* step of gradient descent by updating the terminal node estimates of each fitted tree (the code shows two ways fo doing this).
+
 ## Review(s)
 
 Tree-based algorithms have been a workhorse for data science teams for decades, but the data science field has lacked an all-encompassing review of trees --- and their modern variants like XGBoost --- until now. Greenwell has written the ultimate guide for tree-based methods: how they work, their pitfalls, and alternative solutions. He puts it all together in a readable and immediately usable book. You're guaranteed to learn new tips and tricks to help your data science team.
