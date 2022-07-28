@@ -14,7 +14,7 @@ This page contains all of the code needed to reproduce just about every example 
 
 -   [Chapter 1: Introduction](scripts/chap-intro.R)
 
--   [Chapter 2: Binary recursive partitioning with CART](scripts/chap-intro.R)
+-   [Chapter 2: Binary recursive partitioning with CART](scripts/chap-brpart.R)
 
 -   [Chapter 3: Conditional inference trees](scripts/chap-urpart.R)
 
