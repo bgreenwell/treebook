@@ -18,6 +18,8 @@ Thank you for sending in errata. Before submitting, please check against the err
 
 -   Page 22. In the last paragraph, "(red curve)" should be "(black curve)." (Thanks to @RaymondBalise)
 
+-   Page 24. Mathematical typo. At the top of the page, $\left\{X_j\right\}_{j=1}^1 0 \stackrel{iid}{\sim} \mathcal{U}\left(0, 1\right)$ should be $\left\{X_j\right\}_{j=1}^{10} \stackrel{iid}{\sim} \mathcal{U}\left(0, 1\right)$. (Thanks to Li Gang)
+
 -   Page 48. Just before the function at the bottom of the page, "...<img src="https://user-images.githubusercontent.com/18148282/172916991-a153f5e8-0585-4ad6-9c2c-5f642bb53627.png" alt="image" width="70"/>" should be "...see `` ?`[` ``." (Thanks to @RaymondBalise)
 
 -   Page 72. In the second to last paragraph, "...take $\mathcal{T}_0$ to be the left tree in Figure 2.12" should be "...take T_0 to be the left tree in Figure 2.13." (Thanks to @RaymondBalise);
